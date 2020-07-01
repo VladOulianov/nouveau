@@ -14,16 +14,16 @@ console.log(computerChoise);
 
 var compare = function(choice1, choice2){
     if(choice1 === choice2){
-        return "equality"
+        return "equalité"
     }
 
 
     else if(choice1 === "pierre"){
         if (choice2 === "ciseau"){
-            return "caillou gagne"
+            return "pierre gagne"
         }
         else if (choice2 === "feuille"){
-            return "feuille à gagner"
+            return "feuille à gagne"
         }
     }
 
@@ -33,7 +33,7 @@ var compare = function(choice1, choice2){
             return "ciseau gagne"
         }
         else if (choice2 === "pierre"){
-            return "feuille à gagner"
+            return "feuille à gagne"
         }
     }
 
@@ -43,7 +43,7 @@ var compare = function(choice1, choice2){
             return "ciseau gagne"
         }
         else if (choice2 === "pierre"){
-            return "pierre à gagner"
+            return "pierre à gagne"
         }
     }
     
